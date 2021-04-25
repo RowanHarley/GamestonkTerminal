@@ -143,6 +143,17 @@ This is a library for package management, and ensures a smoother experience than
 python terminal.py
 ```
 
+8. (Optional) Speeding up opening process in the future
+To speed up the opening process, open up a notepad, and input this code:
+```
+call <Anaconda Dir>/Scripts/activate.bat
+call conda activate gst
+cd "<Gamestonk Dir>\GamestonkTerminal"
+call python terminal.py
+pause
+```
+replacing <Anaconda Dir> and <Gamestonk Dir> with their respective file locations. Once you've done this, save the file as a .bat file. In the future, you can use this file to instantly open the Gamestonk Terminal
+
 ### Advanced User Install - Machine Learning
 
 If you are an advanced user and use other Python distributions, we have several requirements.txt documents that you can pick from to download project dependencies.
